@@ -1,3 +1,9 @@
+This project demonstrates how to create a page that can be both read-only and editable.
+
+EmployeeComponent - the component that holds the actual page data
+AbstractEmployeeComponent - the component that holds common data and functions needed to pass to EmployeeComponent
+Create/Edit/ViewEmployeeComponent - actual implementations. These all extend AbstractEmployeeComponent and pass data into EmployeeComponent
+
 # CapstoneTwo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
